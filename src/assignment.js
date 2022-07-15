@@ -26,7 +26,7 @@ return sum;
 
 }
 
-console.log(sumOfNumbers(5, 15, 45)); // 👉️ 65
+console.log(sumOfNumbers(5, 15, 45));
 
 
 
@@ -52,7 +52,7 @@ function countEvenNumbers(arrayOfNumbers) {
 
 console.log(countEvenNumbers(21, 24, 32, 43, 52, 67, 74, 84));
 
-// assignment.countEvenNumbers = countEvenNumbers;
+
 /**
  * Challenge - 3
  * 
