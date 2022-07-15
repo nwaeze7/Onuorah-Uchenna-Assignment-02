@@ -15,8 +15,7 @@ const assignment = {};
  */
 
 function sumOfNumbers(arrayOfNumbers) {
-  const arr = [5, 10, 15, 45];
-
+ const arr = [10, 5, 15, 45]
 let sum = 0;
 
 for (let index = 0; index < arr.length; index++) {
@@ -26,7 +25,6 @@ return sum;
 
 }
 
-console.log(sumOfNumbers(5, 10, 15, 45));
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -49,7 +47,7 @@ function countEvenNumbers(arrayOfNumbers) {
     return count;
 }
 
-console.log(countEvenNumbers(10, 21, 24, 32, 36, 43, 48, 52, 60, 67, 74, 84));
+
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
